@@ -12,9 +12,13 @@ Isolation. Walau tiap container menggunakan kernel OS host yang sama, Docker mem
 * **Scalability**. Karena Container bersifat ringan dan terisolasi, jika aplikasi mengalami aktivitas traffic yang tinggi, container tambahan dapat dijalankan (scaled horizontally) untuk menanganinya secara fleksibel. Lalu, container yang sedang dijalankan tidak perlu dimatikan jika ada penambahan container.
 
 
-# Berikut merupakan istilah-istilah yang dipakai dalam Docker:
+## Berikut merupakan istilah-istilah yang dipakai dalam Docker:
 * **Docker Desktop**: Aplikasi Docker yang dijalankan di Local dan digunakan untuk mengemas dan membuka aplikasi (Docker Images).
 * **Dockerfile**: File yang dibutuhkan untuk mengemas aplikasi.
 * **Docker Images**: Bentuk aplikasi yang sudah dikemas menggunakan Docker oleh Pihak A.
 * **Docker Container**: Bentuk aplikasi yang sudah dibuka dari Docker Images dan dapat dijalankan oleh Pihak B.
 * **Docker Hub**: Container Registry atau centralized storage untuk Docker Images yang dapat diakses oleh Pihak A atau Pihak B.
+
+## Eksplor repo ini untuk melihat cara menggunakan Docker
+
+[Sumber](https://www.geeksforgeeks.org/introduction-to-docker/)
