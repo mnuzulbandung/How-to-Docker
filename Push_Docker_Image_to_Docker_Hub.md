@@ -14,18 +14,18 @@
     docker images
 ```
 
-4.	Pada daftar Docker Images Poin 2, copy IMAGE ID dari Docker Image yang ingin di-push (Contoh, 52db50f60b5b)
+4.	Pada daftar Docker Images Poin 2, copy nama Docker Image yang ingin di-push (Contoh, docker_sample_mnuzulbandung01: v.0.01)
 
-5.	Dalam command prompt, lakukan tag dengan nama repository pada Docker Hub dengan menjalankan script berikut. 52db50f60b5b merupakan ID dari Docker Image yang ingin di-push. mnuzul973 merupakan nama username akun Docker. docker_sample merupakan nama repository target push Docker Image.
-
-```
-    docker tag 52db50f60b5b mnuzul973/docker_sample
-```
-
-6.	Dalam command prompt, lakukan push Docker Image ke Docker Hub dengan menjalankan script berikut. 52db50f60b5b merupakan ID dari Docker Image yang ingin di-push. mnuzul973 merupakan nama username akun Docker. docker_sample merupakan nama repository target push Docker Image.
+5.	Dalam command prompt, lakukan tag dengan nama repository pada Docker Hub dengan menjalankan script berikut. docker_sample_mnuzulbandung01: v.0.01 merupakan nama dari Docker Image yang ingin di-push. mnuzul973 merupakan nama username akun Docker.
 
 ```
-    docker push mnuzul973/docker_sample
+    docker tag docker_sample_mnuzulbandung01:v.0.01 mnuzul973/docker_sample_mnuzulbandung01:v.0.01
+```
+
+6.	Dalam command prompt, lakukan push Docker Image ke Docker Hub dengan menjalankan script berikut. 52db50f60b5b merupakan ID dari Docker Image yang ingin di-push. mnuzul973 merupakan nama username akun Docker.
+
+```
+    docker push mnuzul973/docker_sample_mnuzulbandung01:v.0.01
 ```
 
 7.	Pastikan Docker Image ada pada Docker Hub dengan buka laman Docker Hub; login dengan akun Docker; dan cek repositori. 
