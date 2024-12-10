@@ -17,9 +17,9 @@
         data()
    ```
 
-3.	Masukkan file requirement.txt ke dalam folder Poin 1. File ini berisi library beserta versinya yang diperlukan untuk menjalankan aplikasi yang ingin dikemas. Lihat link ini untuk cara membuatnya.
+3.	Masukkan file requirement.txt ke dalam folder Poin 1. File ini berisi library beserta versinya yang diperlukan untuk menjalankan aplikasi yang ingin dikemas. Lihat [link](https://github.com/mnuzulbandung/How-to-Create-requirements.txt) ini untuk cara membuatnya.
 
-4.	Cari tahu versi python yang digunakan untuk menjalankan aplikasi yang ingin dikemas. Lihat link ini untuk cara melihatnya.
+4.	Cari tahu versi python yang digunakan untuk menjalankan aplikasi yang ingin dikemas. Lihat link [ini](https://github.com/mnuzulbandung/How-to-Create-requirements.txt) untuk cara melihatnya.
 
 5.	Buat docker file bernama 'Dockerfile' (tanpa ada extensi dengan huruf kapital di depan). Masukkan Dockerfile ke dalam folder yang dibuat pada Poin 1. Berikut contoh dari Dockerfile. Pastikan versi python sesuai dengan Poin 4.
 
