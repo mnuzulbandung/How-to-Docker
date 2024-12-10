@@ -25,7 +25,7 @@
 6.	Dalam command prompt, lakukan push Docker Image ke Docker Hub dengan menjalankan script berikut. 52db50f60b5b merupakan ID dari Docker Image yang ingin di-push. mnuzul973 merupakan nama username akun Docker. docker_sample merupakan nama repository target push Docker Image.
 
 ```
-    docker push 52db50f60b5b mnuzul973/docker_sample
+    docker push mnuzul973/docker_sample
 ```
 
 7.	Pastikan Docker Image ada pada Docker Hub dengan buka laman Docker Hub; login dengan akun Docker; dan cek repositori. 
